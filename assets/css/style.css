@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    max-width: 99vw;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+.nav {
+    padding: 1.5rem 2rem;
+}
+.row {
+    display: flex;
+    align-items: center;
+    height: 80%;
+}
+.col {
+    display: inline-block;
+    width: 50%;
+    padding: 2rem;
+}
+.col:first-of-type {
+    text-align: center;
+}
+.col:last-of-type {
+    width: 50%;
+}
+.footer {
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+}
+.nav-title {
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+}
+.title {
+    display: block;
+    width: 70%;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+}
+.paragraf {
+    display: block;
+    width: 75%;
+    margin: 4rem 0;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    width: 381px;
+}
+.footer-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+}
+.scarecrow {
+    width: 70%;
+}
+.btn {
+    color: #FFF;
+    background: #333;
+    padding: 1rem;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+
+}
+@media screen and (max-width: 800px) {
+    .container {
+        height: auto;
+    }
+    .row {
+        display: inline-block;
+    }
+    .col {
+        width: 100%;
+    }
+    .col:last-of-type {
+        width: 100%;
+    }
+    .title {
+        width: 100%;
+        font-size: 42px;
+    }
+    .paragraf {
+        width: 100%;
+        font-size: 18px;
+        line-height: 27px;
+        margin: 2.5rem auto;
+    }
+    .scarecrow {
+        width: 90%;
+    }
+}
